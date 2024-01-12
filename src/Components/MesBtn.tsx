@@ -24,7 +24,7 @@ function formatDate(date: Date) {
   return `${yyyy}-${mm}-${dd}`;
 }
 
-export const MesBtn = ({n}:{n :number}) => {
+ const MesBtn = ({n}:{n :number}) => {
   const { setInicio, setFinal } = useData();
 
   function setMes(n: number) {
@@ -44,3 +44,4 @@ export const MesBtn = ({n}:{n :number}) => {
     </button>
   )
 }
+export default MesBtn

@@ -1,8 +1,8 @@
 import React from 'react'
 import { useData } from '../Context/DataContext'
-import { VendaItem } from '../Components/VendaItem';
+import  VendaItem  from '../Components/VendaItem';
 
-export const Vendas = () => {
+const Vendas = () => {
   const {data} = useData()
 
   if(data === null) return null;
@@ -17,3 +17,4 @@ export const Vendas = () => {
    </ul>
   )
 }
+export default Vendas

@@ -100,6 +100,7 @@ ul {
   flex: 1;
   font-size: 1.125rem;
   text-decoration: none;
+  margin: 0.25rem 0;
   color: var(--color-1);
   padding: var(--gap-s) 0;
 }
@@ -107,7 +108,6 @@ ul {
 .sidenav li:hover span {
   background: var(--color-3);
 }
-
 .daterange {
   display: grid;
   grid-template-columns: 1fr 1fr;
